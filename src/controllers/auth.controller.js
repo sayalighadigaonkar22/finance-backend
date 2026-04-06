@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken')
 const register = async (req, res) => {
   const { name, email, password, role } = req.body
 
-  // basic check
   if (!name || !email || !password) {
     return res.status(400).json({ message: 'Name, email and password are required' })
   }

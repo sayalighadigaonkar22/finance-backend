@@ -71,7 +71,15 @@ finance-backend/
 ├── .gitignore
 └── README.md
 
----
+## Features Implemented
+
+- User and Role Management — register users, assign roles, active/inactive status
+- Financial Records CRUD — create, view, update, soft delete records
+- Record Filtering — filter by type, category, start date and end date
+- Dashboard Summary — total income, total expenses, net balance
+- Role Based Access Control — viewer, analyst and admin have different permissions
+- Input Validation and Error Handling — required field checks and proper error responses
+- Data Persistence — MongoDB database with Mongoose
 
 ## User Roles
 
